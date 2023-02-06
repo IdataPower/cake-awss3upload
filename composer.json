@@ -1,0 +1,26 @@
+{
+    "name": "PowerSystem/cake-s3upload",
+    "description": "S3UploadSDK plugin for CakePHP",
+    "type": "cakephp-plugin",
+    "license": "MIT",
+    "require": {
+        "cakephp/cakephp": "4.*",
+        "josegonzalez/cakephp-upload": "^6.0.0",
+        "league/flysystem-aws-s3-v3": "2.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "PowerSystem\\S3UploadSDK\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "autoload-dev": {
+        "psr-4": {
+            "PowerSystem\\S3UploadSDK\\Test\\": "tests",
+            "PowerSystem\\S3UploadSDK\\Test\\Fixture\\": "tests"
+        }
+    }
+}
