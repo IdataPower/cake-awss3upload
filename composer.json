@@ -1,5 +1,5 @@
 {
-    "name": "PowerSystem/cake-s3upload",
+    "name": "powersystem/cake-s3upload",
     "description": "S3UploadSDK plugin for CakePHP",
     "type": "cakephp-plugin",
     "license": "MIT",
